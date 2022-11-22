@@ -27,8 +27,6 @@ development:
   database: victor_portfolio_backend_development
   host: localhost
   port: 5432
-  # username: postgres
-  # Password: jheart1998.
   username: <%= ENV['DATABASE_USERNAME'] %>
   Password: <%= ENV['DATABASE_PASSWORD'] %>
 
@@ -67,8 +65,6 @@ test:
   database: victor_portfolio_backend_test
   host: localhost
   port: 5432
-  # username: postgres
-  # Password: jheart1998.
   username: <%= ENV['DATABASE_USERNAME'] %>
   Password: <%= ENV['DATABASE_PASSWORD'] %>
 
