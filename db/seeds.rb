@@ -26,31 +26,34 @@ Project.create(
 )
 Project.create(
   title: 'Book Store App',
-  image: './images/bookstoreimage.png',
+  image: 'https://drive.google.com/file/d/1LDSsOh6Nrcjff0NP8Xgu2vRArVl5tI7p/view?usp=share_link',
   description: 'An application that allows users to add and remove books from a list.The application is built with React and Redux.',
   technologies_stack: %w[React Redux CSS],
   live_link: 'https://store-your-book.netlify.app/',
   source_link: 'https://github.com/jheart-vic/BookStore/'
 )
+
 Project.create(
   title: 'Budget App',
-  image: './images/budget1.png',
+  image: 'https://drive.google.com/file/d/1HrWJoZc616tqGrHGNPyybIz9LLZVB7OZ/view?usp=share_link',
   description: 'Lorem Ipsum is simply dummy ',
   technologies_stack: %w[html bootstrap Ruby],
   live_link: 'https://budgetory.herokuapp.com/',
   source_link: 'https://github.com/jheart-vic/Budget-App'
 )
+
 Project.create(
   title: 'Crypto Market Data',
-  image: './images/cryptoimg.png',
+  image: 'https://drive.google.com/file/d/1U3GiCvASQHJra7q-Rz3IkWFJpa0ZTfXX/view?usp=share_link',
   description: 'An App that displays information on crypto market',
   technologies_stack: %w[React CSS Redux],
   live_link: 'https://crypto-area.herokuapp.com/',
   source_link: 'https://github.com/jheart-vic/cryptoapp'
 )
+
 Project.create(
   title: 'Food App',
-  image: './images/hbdiet.png',
+  image: 'https://drive.google.com/file/d/1zDE7lUpdoCcJBbgcb7LLu2UkNnX-W2kg/view?usp=share_link',
   description: 'This is a balanced diet site that helps you know how to eat right and what to eat at the right time',
   technologies_stack: %w[HTML CSS JavaScript],
   live_link: 'https://jheart-vic.github.io/capstone/',
