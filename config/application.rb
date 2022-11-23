@@ -21,7 +21,7 @@ module VictorPortfolioBackend
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     config.before_configuration do
-      env_file = File.join(Rails.root, 'local_env.yml')
+      env_file = File.join(Rails.root, 'config', 'identity_env.yml')
       if File.exist?(env_file)
         YAML.load(File.open(env_file)).each do |key, value|
           ENV[key.to_s] = value
