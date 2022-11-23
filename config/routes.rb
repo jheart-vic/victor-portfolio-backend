@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root 'api/vi/projects#index'
+  root 'api/v1/projects#index'
   namespace :api do
     namespace :v1 do
       resources :projects
