@@ -17,7 +17,7 @@ Project.create(
   source_link: 'https://github.com/jheart-vic/My-Portfolio-Website'
 )
 Project.create(
-  title: 'Professional Art Printing Data',
+  title: 'Art Printing Data',
   image: './images/SnapshootPortfolio.png',
   description: "Lorem Ipsum. text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
   technologies_stack: %w[html bootstrap Ruby],
