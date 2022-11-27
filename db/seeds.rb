@@ -9,9 +9,10 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Project.create(
-  title: 'Multi-Post Stories',
-  image: './images/SnapshootPortfolio.png',
-  description: "Lorem Ipsum is  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+  title: 'Space-Travel Hub',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583154/samples/portfolio/spacetravel_rw2t2u.jpg',
+  description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission,
+  It fetches data from an API and then sends it to the browser for users to view",
   technologies_stack: %w[css html bootstrap Ruby],
   live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
   source_link: 'https://github.com/jheart-vic/My-Portfolio-Website'
