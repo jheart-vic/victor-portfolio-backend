@@ -36,7 +36,7 @@ Project.create(
 Project.create(
   title: 'Budget App',
   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_112_gsgmmt.png',
-  description: 'Lorem Ipsum is simply dummy ',
+  description: 'This is a full-stack App that allows users to sign up and have their budget and expenses saved into a database, it uses Postgresql on the server side and ruby on the client side, and users can delete their budgets',
   technologies_stack: %w[html bootstrap Ruby],
   live_link: 'https://budgetory.herokuapp.com/',
   source_link: 'https://github.com/jheart-vic/Budget-App'
@@ -45,7 +45,7 @@ Project.create(
 Project.create(
   title: 'Crypto Market Data',
   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562884/samples/portfolio/Screenshot_38_eeuitq.png',
-  description: 'An App that displays information on crypto market',
+  description: 'An App that displays information on the crypto market, It fetches the crypto data from an API and Displays It to the user, You can also search for the crypto you need information on as well click for more details on that particular crypto',
   technologies_stack: %w[React CSS Redux],
   live_link: 'https://crypto-area.herokuapp.com/',
   source_link: 'https://github.com/jheart-vic/cryptoapp'
@@ -54,7 +54,7 @@ Project.create(
 Project.create(
   title: 'Food App',
   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_21_egvvmu.png',
-  description: 'This is a balanced diet site that helps you know how to eat right and what to eat at the right time',
+  description: 'This is a balanced diet site that helps you know how to eat right and what to eat at the right time, it is a simple App built with JavaScript, Html, and CSS',
   technologies_stack: %w[HTML CSS JavaScript],
   live_link: 'https://jheart-vic.github.io/capstone/',
   source_link: 'https://github.com/jheart-vic'
