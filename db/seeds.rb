@@ -26,7 +26,7 @@ Project.create(
 )
 Project.create(
   title: 'Book Store App',
-  image: 'https://drive.google.com/file/d/1LDSsOh6Nrcjff0NP8Xgu2vRArVl5tI7p/view?usp=share_link',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_111_uzrdhp.png',
   description: 'An application that allows users to add and remove books from a list.The application is built with React and Redux.',
   technologies_stack: %w[React Redux CSS],
   live_link: 'https://store-your-book.netlify.app/',
@@ -35,7 +35,7 @@ Project.create(
 
 Project.create(
   title: 'Budget App',
-  image: 'https://drive.google.com/file/d/1HrWJoZc616tqGrHGNPyybIz9LLZVB7OZ/view?usp=share_link',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_112_gsgmmt.png',
   description: 'Lorem Ipsum is simply dummy ',
   technologies_stack: %w[html bootstrap Ruby],
   live_link: 'https://budgetory.herokuapp.com/',
@@ -44,7 +44,7 @@ Project.create(
 
 Project.create(
   title: 'Crypto Market Data',
-  image: 'https://drive.google.com/file/d/1U3GiCvASQHJra7q-Rz3IkWFJpa0ZTfXX/view?usp=share_link',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562884/samples/portfolio/Screenshot_38_eeuitq.png',
   description: 'An App that displays information on crypto market',
   technologies_stack: %w[React CSS Redux],
   live_link: 'https://crypto-area.herokuapp.com/',
@@ -53,7 +53,7 @@ Project.create(
 
 Project.create(
   title: 'Food App',
-  image: 'https://drive.google.com/file/d/1zDE7lUpdoCcJBbgcb7LLu2UkNnX-W2kg/view?usp=share_link',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_21_egvvmu.png',
   description: 'This is a balanced diet site that helps you know how to eat right and what to eat at the right time',
   technologies_stack: %w[HTML CSS JavaScript],
   live_link: 'https://jheart-vic.github.io/capstone/',
