@@ -18,9 +18,9 @@ Project.create(
   source_link: 'https://github.com/jheart-vic/My-Portfolio-Website'
 )
 Project.create(
-  title: 'Art-Printing Data',
-  image: './images/SnapshootPortfolio.png',
-  description: "Lorem Ipsum. text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+  title: 'Movie-List App',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583650/samples/portfolio/Screenshot_113_mqjrvk.png',
+  description: "MOVIE DISPLAY is an App that gets a list of movies from the server and displays it for the user to select their choice, This app helps you with movies to watch if you are looking for one ",
   technologies_stack: %w[html bootstrap Ruby],
   live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
   source_link: 'https://github.com/jheart-vic/My-Portfolio-Website'
