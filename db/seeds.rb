@@ -8,15 +8,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Project.create(
-  title: 'Space-Travel Hub',
-  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583154/samples/portfolio/spacetravel_rw2t2u.jpg',
-  description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission,
-  It fetches data from an API and then sends it to the browser for users to view",
-  technologies_stack: 'Redux React Bootstrap',
-  live_link: 'https://maenkhraisha.github.io/space-travel/',
-  source_link: 'https://github.com/jheart-vic/space-travel'
-)
+
 Project.create(
   title: 'Movie-List App',
   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583650/samples/portfolio/Screenshot_113_mqjrvk.png',
@@ -25,6 +17,17 @@ Project.create(
   live_link: 'https://jheart-vic.github.io/movie-display/',
   source_link: 'https://github.com/jheart-vic/movie-display'
 )
+
+Project.create(
+  title: 'Space-Travel Hub',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_111_uzrdhp.png',
+  description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission,
+  It fetches data from an API and then sends it to the browser for users to view",
+  technologies_stack: 'Redux React Bootstrap',
+  live_link: 'https://maenkhraisha.github.io/space-travel/',
+  source_link: 'https://github.com/jheart-vic/space-travel'
+)
+
 Project.create(
   title: 'Book-Store App',
   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_111_uzrdhp.png',
