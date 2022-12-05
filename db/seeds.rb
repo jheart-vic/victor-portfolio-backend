@@ -8,7 +8,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-
 Project.create(
   title: 'Movie-List App',
   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583650/samples/portfolio/Screenshot_113_mqjrvk.png',
@@ -20,7 +19,7 @@ Project.create(
 
 Project.create(
   title: 'Space-Travel Hub',
-  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_111_uzrdhp.png',
+  image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669908880/samples/portfolio/Screenshot_114_arfeg8.png',
   description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission,
   It fetches data from an API and then sends it to the browser for users to view",
   technologies_stack: 'Redux React Bootstrap',
