@@ -1,7 +1,6 @@
 databases:
   - name: victor_portfolio_backend
     databaseName: victor_portfolio_backend
-    user: victor_portfolio_backend
     ipAllowList: []
 
 services:
@@ -17,5 +16,7 @@ services:
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
-        plan: free
-        ipAllowList: []
+  - type: redis
+    name: redis
+    plan: free
+    ipAllowList: []
