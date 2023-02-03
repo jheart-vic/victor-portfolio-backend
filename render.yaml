@@ -2,18 +2,21 @@ databases:
   - name: victor_portfolio_backend
     databaseName: victor_portfolio_backend
     user: victor_portfolio_backend
+    ipAllowList: []
 
 services:
   - type: web
-    name: victor_portfolio_backend
+    name: rails
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
+        sync: false
         fromDatabase:
           name: victor_portfolio_backend
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
         plan: free
+        ipAllowList: []
