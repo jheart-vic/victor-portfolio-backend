@@ -12,7 +12,6 @@ services:
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
-        sync: false
         fromDatabase:
           name: victor_portfolio_backend
           property: connectionString
