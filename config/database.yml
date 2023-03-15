@@ -20,5 +20,5 @@ production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
   database: victor_portfolio_backend_production
-  username: victor_portfolio_backend
-  password: <%= ENV["VICTOR_PORTFOLIO_BACKEND_DATABASE_PASSWORD"] %>
+  # username: victor_portfolio_backend
+  # password: <%= ENV["VICTOR_PORTFOLIO_BACKEND_DATABASE_PASSWORD"] %>
