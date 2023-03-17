@@ -43,12 +43,12 @@ if Project.exists?(title: 'Book-Store App')
   puts 'Book-Store App project already exists'
 else
   Project.create(
-    title: 'Book-Store App',
-    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_111_uzrdhp.png',
-    description: 'An application that allows users to add and remove books from a list.The application is built with React and Redux.',
-    technologies_stack: 'React Redux CSS',
-    live_link: 'https://store-your-book.netlify.app/',
-    source_link: 'https://github.com/jheart-vic/BookStore/'
+    title: 'Appointment App',
+    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1679066345/Screenshot_124_nt5kui.png',
+    description: 'An application that allows users to book appointment with a particular teacher and Learn better',
+    technologies_stack: 'Rail React Redux CSS',
+    live_link: 'https://zingy-moonbeam-4ae8a7.netlify.app/',
+    source_link: 'https://github.com/jheart-vic/teacher_appointment_frontend/'
   )
   puts 'Book-Store App project created'
 end
