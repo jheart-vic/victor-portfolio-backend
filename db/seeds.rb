@@ -39,8 +39,8 @@ else
 end
 
 # Check if the Book-Store App project already exists
-if Project.exists?(title: 'Book-Store App')
-  puts 'Book-Store App project already exists'
+if Project.exists?(title: 'Appointment App')
+  puts 'Appointment App project already exists'
 else
   Project.create(
     title: 'Appointment App',
@@ -50,7 +50,7 @@ else
     live_link: 'https://zingy-moonbeam-4ae8a7.netlify.app/',
     source_link: 'https://github.com/jheart-vic/teacher_appointment_frontend/'
   )
-  puts 'Book-Store App project created'
+  puts 'Appointment App project created'
 end
 
 # Check if the Budget-Keeping App project already exists
